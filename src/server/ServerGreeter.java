@@ -24,13 +24,13 @@ public class ServerGreeter extends Thread {
 		
 				//8. Let the user know that the server is waiting for a client to connect.
 		
-				//9. Create an object of the Server class and initialize it to serverSocket.accept();
+				//9. Create an object of the Socket class and initialize it to serverSocket.accept();
 				//   Change serverSocket to match the ServerSocket member variable you created in step 1.
 				//   The program will wait her until either a client connects or the timeout expires.
 
 				//10. Let the user know that the client has connected.
 				
-				//11. Create a DataInputStream object. When initializing it, use the Server object you created in step 9 to call the getInputStream() method.
+				//11. Create a DataInputStream object. When initializing it, use the Socket object you created in step 9 to call the getInputStream() method.
 
 				//12. Print the message from the DataInputStream object using the readUTF() method
 				
